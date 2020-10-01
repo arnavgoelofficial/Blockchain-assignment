@@ -1,0 +1,37 @@
+1.
+Test Name : Accepting New order
+
+Test Description : To check if new order are being accepted by the code written and if they are listed or notg
+
+Desired Outcome : count order = 1,
+list order = orderno - 1, quantity - 1, price = 100, status = pending, payment = pending
+
+Actual Outcome : count order = 1,
+list order = orderno - 1, quantity - 1, price = 100, status = pending, payment = pending
+
+Result : Pass
+
+
+2.
+Test Name : Auth Sender
+
+Test Description : To check if new order being placed are by the buyer and not the sender
+
+Desired Outcome : checkOwner = 1
+
+Actual Outcome : checkOwner = 1
+
+Result : Pass
+
+
+3.
+Test Name : Auth Receiver
+
+Test Description : To check the order is accepted
+
+
+
+
+
+
+
