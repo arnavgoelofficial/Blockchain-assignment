@@ -27,11 +27,41 @@ Result : Pass
 3.
 Test Name : Auth Receiver
 
-Test Description : To check the order is accepted
+Test Description : To check the order is accepted by the right person after changing the address
+
+Desired Outcome : checkOwner = 2
+
+Actual Outcome : checkOwner = 2
+Result : Pass
+
+4.
+Test Name : Confirm payment
+
+Test Decription : To check if the receiver has accepted the order and has confirmed payment
+
+Desired outcome : checkPayment = 1
+
+Actual Outcome : checkPayemnt = 1
+Result : Pass
 
 
+5.
 
+Test Name : Order status update
 
+Test Decription : To check the status on multiple orders and checking if they are accepted
+Desired outcome : countOrder = 1, orderStatus = Accept
 
+Actual Outcome : countOrder = 1, orderStatus = Accept
+Result : Pass
+
+6.
+Test Name : Orders deleted or not
+Test Decription : To check the status on multiple orders and checking if they are completed
+
+Desired outcome : orderStatus = 1, payment=done
+
+Actual Outcome : orderStatus = 1, payment=done
+Result : Pass
 
 
